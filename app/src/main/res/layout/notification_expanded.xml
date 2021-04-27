@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="256dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvFirstTitle"
+        style="@style/TextViewStyle"
+        tools:text="First title" />
+
+    <TextView
+        android:id="@+id/tvSecondTitle"
+        style="@style/TextViewStyle"
+        tools:text="Second title" />
+
+    <TextView
+        android:id="@+id/tvThirdTitle"
+        style="@style/TextViewStyle"
+        tools:text="Third title" />
+
+    <TextView
+        android:id="@+id/tvFourthTitle"
+        style="@style/TextViewStyle"
+        tools:text="Fourth title" />
+
+    <TextView
+        android:id="@+id/tvFifthTitle"
+        style="@style/TextViewStyle"
+        tools:text="Fifth title" />
+
+    <TextView
+        android:id="@+id/tvMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="1 more" />
+
+</LinearLayout>
