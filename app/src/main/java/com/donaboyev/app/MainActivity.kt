@@ -7,7 +7,6 @@ import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.widget.RemoteViews
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
@@ -19,7 +18,8 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var notificationManager: NotificationManagerCompat
-    private var listItems = arrayOf("First","Second","Third","Fourth","Fifth","Sixth","Seventh")
+    private var listItems =
+        arrayOf("First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

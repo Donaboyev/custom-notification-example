@@ -10,7 +10,7 @@
         style="@style/TextAppearance.Compat.Notification.Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Message!"
+        android:text="@string/new_message"
         android:textColor="@color/design_default_color_primary" />
 
     <TextView
@@ -18,6 +18,6 @@
         style="@style/TextAppearance.Compat.Notification.Info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Expand to show!" />
+        android:text="@string/expand_to_show" />
 
 </LinearLayout>
